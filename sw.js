@@ -1,5 +1,5 @@
 // 自動生成（書き出しのたびに作り直されます）。編集しないでください。
-const BUILD = "sha256-019cab2fdf4ee94566a8be45cb2f7c93f339f6c60625273755abf5b5dd762970";
+const BUILD = "sha256-9ddb13d436b144e24575459ad9341676b8e1ba29b66a3055b5a3cbdc2a1251d3";
 const PREFIX = 'ashbound:' + new URL(self.registration.scope).pathname + ':';   // 同じサイトに別のゲームがあっても、保存領域が混ざらないように、場所ごとに分ける
 const CACHE = PREFIX + BUILD;
 const FILES = {"core":["./","index.html","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png"],"assets":[]};
